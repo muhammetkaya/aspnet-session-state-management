@@ -44,9 +44,15 @@ If you want to disable Redis cache just remove the AddDistributedRedisCache line
 
 ## About Me
 
-Muhammet Kaya – [@kayamuhammet](https://medium.com/@kayamuhammet) – muhammetkaya3509@hotmail.com
+Muhammet Kaya
 
-[https://github.com/muhammetkaya](https://github.com/muhammetkaya)
+[LinkedIn](https://www.linkedin.com/in/kayamuhammet/)
+
+[Medium](https://medium.com/@kayamuhammet)
+
+[Github](https://github.com/muhammetkaya)
+
+muhammetkaya3509@hotmail.com
 
 ## Contributing
 
