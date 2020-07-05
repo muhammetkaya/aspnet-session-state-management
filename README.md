@@ -34,7 +34,7 @@ dotnet run -p ./dist-session-management/dist-session-management.csproj
 
 There are some test key and values on Index Page OnGet Action. When you execute the project index page will add session state to Redis cache. Session states are stored by "Session\_" prefix.
 
-To check keys on Redis execute code below
+To check keys on Redis execute code below using redis-cli
 
 ```sh
 KEYS *Session_*
