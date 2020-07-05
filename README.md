@@ -24,7 +24,7 @@ git clone https://github.com/muhammetkaya/ASPNETSessionStateManagement.git
 docker run --name dist-session-container -p 6379:6379 -d redis
 ```
 
-2. Run project
+3. Run project
 
 ```sh
 dotnet run -p ./dist-session-management/dist-session-management.csproj
