@@ -19,10 +19,11 @@ namespace dist_session_management
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var redisConnectionString = Configuration.GetConnectionString("Redis");
             // Add Distributed Redis Cache for Session
             services.AddDistributedRedisCache(options =>
             {
-                options.Configuration = "localhost";
+                options.Configuration = redisConnectionString;
                 options.InstanceName = "Session_";
             });
 
